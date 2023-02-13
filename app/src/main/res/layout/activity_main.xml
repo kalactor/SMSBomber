@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/phoneNumberET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="phone number"
+        android:inputType="phone" />
+
+
+    <EditText
+        android:id="@+id/messageBodyET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="message body" />
+
+    <EditText
+        android:id="@+id/timeET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="no of messages"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="send" />
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Made with \u2764 in INDIA" />
+
+
+</LinearLayout>
